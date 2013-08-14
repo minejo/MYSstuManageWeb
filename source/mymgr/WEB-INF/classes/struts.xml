@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+	<package name="default" extends="struts-default">
+		<global-results>
+			<result name="OffLine">/common/OffLine.jsp</result>
+		</global-results>
+		<!-- 登陆action -->
+		<action name="Login" class="com.action.user.LoginAction">
+		     <!-- 登陆成功 -->
+			<result name="success">/common/LogSuc.jsp</result>     
+			 <!-- 登陆失败 -->
+			<result name="error">/common/error.jsp</result>
+			 <!-- 退出登录 -->
+			<result name="login" type="redirect">/common/Login.jsp</result>
+		</action>
+		
+		<!-- 用户信息相关action -->
+		<action name="User" class="com.action.user.UserInfoAction">
+		    <!-- 密码修改成功 -->
+			<result name="pwdSuccess">/S.jsp</result>
+			<!-- 显示个人信息 -->
+			<result name="success">/user/com/Info.jsp</result>
+			<!-- 密码错误 -->
+			<result name="error">/user/com/pwderror.jsp</result>
+			<!-- 所有学生列表 -->
+			<result name="MUList">/user/stu/allstu.jsp</result>
+			<!-- 所有老师列表  -->
+			<result name="tlist">/user/tea/alltutor.jsp</result>
+			<!--学生个人信息 -->
+			<result name="uinfo">/user/stu/Info.jsp</result>
+			<!-- 查看导师用户信息(管理员) -->
+			<result name="tuinfo">/user/tea/Info.jsp</result>
+		</action>
+		
+		<!--科创竞赛相关  -->
+		<action name="Contest" class="com.action.contest.ContestAction">
+		    <!--上传图片存放地址  -->
+			<param name="imagePath">/common/picture</param>   
+			 <!--学生科创竞赛成果提交  -->
+			<result name="input">/contest/submit.jsp</result>
+			 <!-- 提交成功 -->
+			<result name="success">/contest/subsuc.jsp</result>
+			 <!--  提交失败-->
+			<result name="error">/contest/suberr.jsp</result>
+			 <!--删除提示  -->
+			<result name="delrsl">/contest/delsrl.jsp</result>
+			 <!-- 学生的所有个人科创成果 -->
+			<result name="List">/contest/myList.jsp</result>
+		</action>
+		
+		<!-- 科创管理相关 -->
+		<action name="ConManage" class="com.action.contest.ContestMgrAction">
+		    <!--添加竞赛条目  -->
+			<result name="Add">/contest/addItem.jsp</result>
+			 <!-- 学生所有已审批过的科创成果-->
+			<result name="List">/contest/conlist.jsp</result>
+			 <!-- 竞赛条目列表（不是科创成果） -->
+			<result name="Item">/contest/itemList.jsp</result>
+			 <!--  删除一个竞赛条目-->
+			<result name="ItemDel">/contest/DelItem.jsp</result>
+			 <!-- 竞赛条目的详细信息 -->
+			<result name="ItemDetail">/contest/itemDetail.jsp</result>
+			 <!--审核科创成果  -->
+			<result name="verList">/contest/converify.jsp</result>
+			 <!-- 竞赛审核结果信息 -->
+			<result name="verPass">/contest/verifyResult.jsp</result>
+			 <!-- 获取一学期内某学生相似的科创成果 -->
+			<result name="getSame">/contest/sameitem.jsp</result>		
+		</action>
+		
+		<!-- 诚信管理 -->
+		<action name="inte" class="com.action.integrity.IntegrityAction" >
+		   <!--添加诚信记录  -->
+		   <result name="AddInter">/integrity/add.jsp</result>
+		    <!--所有诚信记录列表  -->
+		   <result name="List">/integrity/integlist.jsp</result>
+		    <!-- 审核诚信记录 -->
+		   <result name="Verify">/integrity/integverify.jsp</result>
+		    <!-- 诚信记录审核结果信息 -->
+		   <result name="verPass">/integrity/verifyResult.jsp</result>
+		    <!-- 错误信息处理 -->
+		   <result name="error">/integrity/integverify.jsp</result>
+		</action>
+		
+		<!-- 专业管理 -->
+		<action name="Major" class="com.action.major.MajorAction">
+		    <!-- 选专业 -->
+			<result name="PreAddMajor">/major/ChMajor.jsp</result>		
+		    <!-- 导师选择 -->
+			<result name="PreAddTutor">/major/ChTutor.jsp</result>	
+			<!-- 错误页面 -->	
+			<result name="error">/major/Result.jsp</result>	
+			<!-- 操作成功 -->				
+			<result name="success">/major/Result.jsp</result>
+			<!-- 个人专业和导师选择结果 -->				
+			<result name="MajorInfo">/major/majorStuResult.jsp</result>	
+			<!-- 所有专业选择列表 -->	
+			<result name="MList">/major/MajorResult.jsp</result>		
+			<!-- 所有导师选择列表 -->	
+			<result name="TList">/major/TutorResult.jsp</result>			
+		</action>
+		
+		<!-- 学生用户账号激活 -->
+		<action name="avt" class="com.action.user.ActivateAction">
+		   <!-- 学生照片上传路径 -->
+			<param name="infoImagePath">/common/picture</param>
+			<!--跳到激活页面 -->
+			<result name="LoginSucs">/user/stu/avt.jsp</result>
+			<!-- 错误页面 -->	
+			<result name="error">/user/stu/avt.jsp</result>
+		</action>
+		
+		<!-- 课程管理 -->
+		<action name="csmgr" class="com.action.score.CourseAction">
+		    <!--添加课程条目  -->
+			<result name="csadd">/mgr/course.jsp</result>
+			 <!--所有课程条目列表  -->
+			<result name="cslist">/mgr/course.jsp</result>
+			 <!-- 单个课程条目删除 -->
+			<result name="csdel">/mgr/course.jsp</result>
+			 <!-- 所有课程成绩导入 -->
+			<result name="co">/mgr/scoreupload.jsp</result>
+			 <!-- 可查询课程成绩导出 -->
+			<result name="outstucs">/mgr/scoredownload.jsp</result>
+			 <!-- 导出excel配置 -->
+			<result name="csexecl" type="stream">
+				<param name="contentType">application/vnd.ms-excel</param>
+				<param name="contentDisposition">attachment;filename="${csexcelname}"</param>
+				<param name="bufferSize">1024</param>
+				<param name="inputName">csexcel</param>
+			</result>
+		</action>
+		
+		<!-- 成绩 -->
+		<action name="score" class="com.action.score.ScoreAction">
+		    <!-- 学生的个人课程成绩 -->
+			<result name="prescore">/score/myscore.jsp</result>
+		</action>
+		
+	</package>
+</struts>    

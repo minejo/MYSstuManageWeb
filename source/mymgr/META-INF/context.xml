@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/mys"
+			  auth="Container"
+			  type="javax.sql.DataSource"
+			  driverClassName="com.mysql.jdbc.Driver"
+			  maxActive="200"
+			  maxIdle="30"
+			  maxWait="10000"
+			  logAbandoned="true"
+			  username="root"
+			  password="swjtu_inc_sns"
+			  url="jdbc:mysql://222.18.63.53:3306/leopard?useUnicode=true&amp;characterEncoding=UTF-8" />
+</Context>

@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	
+}
+
+a:HOVER {
+	text-decoration: underline;
+	color: red;
+}
+
+.subtree {
+	padding-left: 20px;
+	display: none;
+}
+
+.subtitle {
+	cursor: pointer;
+}
+
+span:HOVER {
+	text-decoration: underline;
+}

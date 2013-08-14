@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+.mainFrame {
+	width: 400px;
+	margin: 0px auto;
+}
+
+.formDiv {
+	margin: 0px 10px;
+}

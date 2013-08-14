@@ -1,0 +1,142 @@
+body {
+	font: normal 11px auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	background: #f7faff;
+}
+
+a {
+	color: #c75f3e;
+}
+
+#mytable {
+	width: 1000px;
+	padding: 0;
+	margin: 10 auto;
+
+}
+
+#box{
+ text-align:center;
+ margin-top: 0px;
+}
+
+caption {
+	padding: 0 0 5px 0;
+	width: 700px;	 
+	font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+th {
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+}
+
+th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+
+td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #4f6b72;
+}
+
+
+td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+.list_search .search_field, .list_search label {
+	display: inline-block;
+	height: 22px;
+	line-height: 21px;
+}
+
+.list_search select.search_field {
+	width: 170px;
+	height: 29px;
+	font-size: 13px;
+}
+
+.list_search .button {
+	background: #2191c8;
+	border: 1px solid #505050;
+	height: 28px;
+	line-height: 28px;
+	width: 65px;
+	color: #fff;
+	position: relative;
+	top: 1px;
+}
+
+.list_footer .page_control{
+	width: 50px;
+	height: 20px;
+	display: inline;
+	margin-left: 3px;
+	margin-top: 20px;
+   
+	border: 1px solid #D4D4D4;
+}
+ .list_footer .page_control a:hover {
+	background: #2191c8;
+	color: #fff;
+}
+ .list_footer .page_number {
+	display: inline;
+	margin-left: 3px;
+	font-weight: bold;
+}
+ .list_footer .page_number input {
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+}
+ .list_footer .page_info {
+	height: 20px;
+	display: inline;
+	margin-left: 3px;
+	margin-top: 20px;
+	margin-right: 120px;
+}
+ .list_footer .page_control a {
+	display: inline;
+	height: 17px;
+	color: #999999;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 3px; 
+}
+ .list_footer .page_info span {
+	display: block;
+	height: 100%;
+	font-weight: bold;
+}
+
+caption .add
+{
+    width: 70px;
+    height: 30px;
+    background: #c6ba95;
+	border: 1px solid;
+	font-size: 16px;
+	text-align: center;
+	margin-right: 0px;
+	
+	
+}

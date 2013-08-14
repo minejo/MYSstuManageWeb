@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context> 
+  <!--
+		grade 年级配置
+		class 班级配置
+			name 配置名字 与excel种的名字一致
+			value 配置编号 从1开始, 分别代表这一年级的一班.....
+			num 班级人数
+			以上为手动配置, 不可空缺
+			以下为程序生成
+			cl_name 班级实际完整的名字
+			cl_id 在数据库中的班级编号
+	-->  
+  <grade value="2010"/>  
+  <class name="一班" value="1" num="30" classid="201001" classname="2010年1班"/>  
+  <class name="二班" value="2" num="30" classid="201002" classname="2010年2班"/>  
+  <class name="三班" value="3" num="30" classid="201003" classname="2010年3班"/>  
+  <class name="四班" value="4" num="30" classid="201004" classname="2010年4班"/>  
+  <class name="五班" value="5" num="30" classid="201005" classname="2010年5班"/>  
+  <class name="六班" value="6" num="30" classid="201006" classname="2010年6班"/>  
+  <class name="七班" value="7" num="30" classid="201007" classname="2010年7班"/>  
+  <class name="八班" value="8" num="30" classid="201008" classname="2010年8班"/> 
+</Context>

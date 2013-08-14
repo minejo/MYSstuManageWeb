@@ -1,0 +1,389 @@
+@CHARSET "UTF-8";
+
+input {
+	border: 1px #A7C0D7 solid;
+	color: #000;
+}
+
+.noborder {
+	border: 0px;
+	background: none;
+}
+
+.imglogin h5 a {
+	float: left;
+	margin: 0 2px;
+	line-height: 24px;
+}
+
+.imglogin h5 .dl {
+	background: url(../image/loginimg.gif) no-repeat;
+	width: 85px;
+	height: 24px;
+	display: block;
+	border: 0px;
+	cursor: pointer;
+}
+
+.imglogin h5 .dl:hover {
+	background: url(../image/loginimg_on.gif) no-repeat;
+	width: 85px;
+	height: 24px;
+	display: block;
+	border: 0px;
+	cursor: pointer;
+}
+
+/*新闻公告表单*/
+.datagridstyle {
+	border-bottom: 2px solid #EEF3F9;
+	background: #fff;
+}
+
+.datagridhead { /* ---头--- */
+	background-color: #C1D8F0;
+	font-weight: bold;
+}
+
+.datagrid1212 { /* ---间隔色--- */
+	background-color: #EEF3F9;
+}
+
+.datagridpager {
+	background-color: #EEF3F9;
+	font-weight: bold;
+}
+
+.space_30 /*行间间隔为30px*/ {
+	line-height: 30px;
+	height: 30px;
+	width: 90%;
+}
+
+/*layout.css */
+@charset "utf-8";
+/* CSS Document */
+#liuyan {
+	float: left;
+	width: 330px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+}
+
+#liuyan p {
+	margin: 10px auto 10px auto
+}
+
+.tishi {
+	float: left;
+	padding-left: 10px;
+	color: #7fa89b;
+	width: 330px;
+}
+
+.leftbar {
+	width: 224px;
+	height: 21px;
+	padding: 10px 0 0 40px;
+	background: url(../image/bgleftbar.jpg);
+}
+
+#mainbox {
+	position: relative;
+	background: url(../image/bgmainbox.jpg) repeat-y;
+	height: auto;
+	overflow: hidden;
+	width: 1008px;
+}
+
+#content1 {
+	width: 21px;
+	height: 400px;
+}
+
+#content2 {
+	width: 264px;
+	height: 688px;
+	background: url(../image/bgleftpic.jpg) no-repeat bottom;
+}
+
+#content3 {
+	width: 24px;
+}
+
+#content4 {
+	width: 675px;
+}
+
+#content1,#content2,#content3,#content4 {
+	display: inline;
+	float: left;
+}
+
+#locationnow {
+	width: 580px;
+	height: 20px;
+	padding: 10px 0 0 97px;
+	background: url(../image/bglocationnow.jpg)
+}
+
+.title1 {
+	width: 675px;
+	padding: 20px 0 20px 0;
+	border-left: #B9DFF9 solid 1PX;
+	border-right: #B9DFF9 solid 1PX;
+	background: url(../image/bgtitle.jpg) bottom no-repeat;
+}
+
+.title2 {
+	width: 675px;
+	padding: 15px 0 2px 0;
+	border-left: #B9DFF9 solid 1PX;
+	border-right: #B9DFF9 solid 1PX;
+}
+
+.title0 {
+	width: 675px;
+	padding: 10px 0 15px 0;
+	border-left: #B9DFF9 solid 1PX;
+	border-right: #B9DFF9 solid 1PX;
+	background: url(../image/bgtitle.jpg) bottom no-repeat;
+}
+
+#artical {
+	width: 619px;
+	padding: 30px 28px 20px 28px;
+	border-left: #B9DFF9 solid 1PX;
+	border-right: #B9DFF9 solid 1PX;
+	border-bottom: #B9DFF9 solid 1PX;
+	margin-bottom: 15px;
+}
+
+.basicbox {
+	width: 675px;
+	border-left: #B9DFF9 solid 1PX;
+	border-right: #B9DFF9 solid 1PX;
+	border-bottom: #B9DFF9 solid 1PX;
+	margin-bottom: 15px;
+}
+
+#menuleft {
+	width: 224px;
+	height: 19px;
+	padding: 15px 0 0 40px;
+}
+
+.menulist {
+	margin-top: 23px;
+}
+
+.menulist li {
+	height: 19px;
+	background: url(../image/bgbtn0.jpg) no-repeat;
+	padding: 7px 0 0 85px;
+}
+
+.nextpage {
+	margin: 20px auto 20px 440px
+}
+
+.space1 {
+	height: 23px;
+}
+
+.space2 {
+	padding: 11px 0 0 24px;
+}
+
+.space3 {
+	margin: 13px 0 0 35px;
+}
+
+.space4 {
+	height: 25px;
+	background: url(../image/bgtitle.jpg) center no-repeat
+}
+
+.space5 {
+	height: 42px;
+	background: url(../image/bgtitle.jpg) center no-repeat
+}
+
+.caption {
+	height: 20px;
+	padding: 3px 25px 0 45px;
+	background: url(../image/icobig.jpg) 23px 0 no-repeat
+}
+
+#newsdongtai {
+	height: 160px;
+	position: relative;
+}
+
+#newsdongtai .part1 {
+	position: absolute;
+	top: 22px;
+	left: 23px;
+}
+
+#newsdongtai .part2 {
+	position: absolute;
+	top: 14px;
+	left: 225px;
+}
+
+#newsdongtai .part3 {
+	position: absolute;
+	top: 54px;
+	left: 229px;
+	width: 417px;
+}
+
+#newsdongtai .part4 {
+	position: absolute;
+	top: 16px;
+	left: 587px;
+}
+
+#tangnotice {
+	height: 110px;
+	position: relative;
+}
+
+#tangnotice .tangnotice1 {
+	position: absolute;
+	top: 13px;
+	left: 36px;
+}
+
+#tangnotice .tangnotice2 {
+	position: absolute;
+	top: 13px;
+	left: 348px;
+}
+
+
+
+#photo {
+	height: 118px;
+	position: relative;
+}
+
+#photo .photo1 {
+	position: absolute;
+	top: 13px;
+	left: 36px;
+}
+
+#photo .photo2 {
+	position: absolute;
+	top: 13px;
+	left: 192px;
+}
+
+#photo .photo3 {
+	position: absolute;
+	top: 13px;
+	left: 348px;
+}
+
+#photo .photo4 {
+	position: absolute;
+	top: 13px;
+	left: 504px;
+}
+
+.leftbef {
+	padding: 15px;
+}
+
+#messagebox {
+	width: 560px;
+	border: thin solid #B9DFF9;
+	margin: 10px auto 20px 50px;
+}
+
+.messagebox1 {
+	width: 543px;
+	background: #ABDCF8;
+	border: thin solid #fff;
+	padding: 7PX 0 0 15PX;
+	height: 21px;
+}
+
+.messagebox2 {
+	padding: 0PX 15px 20px 15PX;
+	background: url(../image/xuxian.jpg) bottom no-repeat;
+}
+
+.messagebox3 {
+	padding: 10PX 15px 12px 15PX;
+}
+
+/*==========以下部分是Validform必须的===========*/
+.Validform_checktip{
+	margin-left:8px;
+	line-height:20px;
+	height:20px;
+	overflow:hidden;
+	color:#999;
+	font-size:12px;
+}
+.Validform_right{
+	color:#71b83d;
+	padding-left:20px;
+	background:url(../image/right.png) no-repeat left center;
+}
+.Validform_wrong{
+	color:red;
+	padding-left:20px;
+	white-space:nowrap;
+	background:url(../image/error.png) no-repeat left center;
+}
+.Validform_loading{
+	padding-left:20px;
+	background:url(../image/onLoad.gif) no-repeat left center;
+}
+.Validform_error{
+	background-color:#ffe7e7;
+}
+#Validform_msg{color:#7d8289; font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif; width:280px; -webkit-box-shadow:2px 2px 3px #aaa; -moz-box-shadow:2px 2px 3px #aaa; background:#fff; position:absolute; top:0px; right:50px; z-index:99999; display:none;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#999999');}
+#Validform_msg .iframe{position:absolute; left:0px; top:-1px; z-index:-1;}
+#Validform_msg .Validform_title{line-height:25px; height:25px; text-align:left; font-weight:bold; padding:0 8px; color:#fff; position:relative; background-color:#000;}
+#Validform_msg a.Validform_close:link,#Validform_msg a.Validform_close:visited{line-height:22px; position:absolute; right:8px; top:0px; color:#fff; text-decoration:none;}
+#Validform_msg a.Validform_close:hover{color:#cc0;}
+#Validform_msg .Validform_info{padding:8px;border:1px solid #000; border-top:none; text-align:left;}
+
+
+/*==========页面提交提示信息===========*/
+#postmessage .right{
+	font-size: 20px;
+	color: green;
+	width: 500px;	
+	margin: 10px 450px;
+	
+	}
+	
+
+#postmessage .wrong {
+ font-size: 20px;
+	color: red;
+	width: 500px;
+	margin: 10px 450px;
+}	
+	/*================页面Notice信息=================*/
+	.notice
+	{	     
+	      text-align: left;
+	      margin-left: 40px;
+	      margin-right: 40px;
+	      margin-bottom: 50px;
+	}
+	
+	.notice p
+	{
+     	font-size:20px; 
+     	margin-top: 3px;
+	}
