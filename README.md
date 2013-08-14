@@ -12,9 +12,9 @@
 ![Alt Admin](admin.jpg "管理员主界面") 
 
 ## 使用 ##
-1.建立数据库，运行SQL/cratesql.sql
-2.把网站源码放入Tomcat7中
-3.使用ExportTool/Tool.jar导入相关学生，导师数据
+1. 建立数据库，运行SQL/cratesql.sql
+2. 把网站源码放入Tomcat7中
+3. 使用ExportTool/Tool.jar导入相关学生，导师数据
 
 ## License ##
 The licenses for most software are designed to take away your
